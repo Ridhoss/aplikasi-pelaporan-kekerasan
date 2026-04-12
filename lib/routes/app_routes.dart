@@ -1,4 +1,4 @@
-import 'package:aplikasi_pelaporan_kekerasan/views/pages/test_page.dart';
+import 'package:aplikasi_pelaporan_kekerasan/views/pages/cloudinary_test.dart';
 import 'package:flutter/material.dart';
 
 class AppRoutes {
@@ -8,7 +8,7 @@ class AppRoutes {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case test:
-        return MaterialPageRoute(builder: (_) => TestPage());
+        return MaterialPageRoute(builder: (_) => CloudinaryTestPage());
 
       default:
         return MaterialPageRoute(
