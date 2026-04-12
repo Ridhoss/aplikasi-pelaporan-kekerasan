@@ -51,7 +51,7 @@ Dengan pendekatan **offline-first**, pengguna tetap dapat membuat laporan meskip
 
 Aplikasi ini menggunakan pendekatan:
 
-* **MVC (Model - View - Controller)**
+* **MVVM (Model - View - View Model)**
 * **SRP (Single Responsibility Principle)**
 
 Struktur utama:
@@ -60,7 +60,7 @@ Struktur utama:
 lib/
 ├── models/
 ├── views/
-├── controllers/
+├── viewmodels/
 ├── services/
 ├── routes/
 ```
